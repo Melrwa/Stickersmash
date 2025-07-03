@@ -8,7 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "dev": "APP_VARIANT=development npx expo start"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -42,7 +43,8 @@
     "react-native-screens": "~4.11.1",
     "react-native-view-shot": "4.0.3",
     "react-native-web": "~0.20.0",
-    "react-native-webview": "13.13.5"
+    "react-native-webview": "13.13.5",
+    "expo-dev-client": "~5.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
